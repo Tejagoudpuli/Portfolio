@@ -44,6 +44,16 @@ html,body{
     .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 2rem;
     }
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+        min-width: 520px;
+        margin-bottom: 0%;
+        
+    }
+
   }
 
   .carousel {
@@ -82,3 +92,13 @@ min-height:100px;
     background-color: rgb(156, 38, 38) ;
 }
 
+.footer {
+    background-color: black;
+    margin: 0px auto;
+    padding: 100px 10px 100px 140px;
+    color: white;
+}
+
+.footerButton {
+    color: aliceblue;
+}
