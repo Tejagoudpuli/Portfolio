@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.navbar-dark {
+    background-color: black;
+}
+.hello{
+    font-family:'Pacifico', cursive;
+    font-weight: 300;
+    color: rgb(156, 38, 38);
+}
+.head {
+    color: aliceblue;
+}
+.jumbotron{
+    padding: 0;
+}
+.tejaimg{
+    height: 680px;
+    width: 661px;
+    margin-top: 69px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 4.5rem;
+}
+
+.namebox{
+    margin-top: 160px;
+}
+
+.contact{
+    margin: 110px 0px;
+}
+
+@media only screen and (max-width: 815px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 2rem;
+    }
+  }
+
