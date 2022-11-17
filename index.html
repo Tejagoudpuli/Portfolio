@@ -42,10 +42,10 @@
                     <button type="button" class="btn btn-outline-secondary contact">Contact me</button>
                     <div class="row row-content">
                         <div class="col-6">
-                            <h3>+120</h3><p><small>sloved programming problems <br>in various coding paltforms<br> using c++ language</small></p>
+                            <h3>+120</h3><p><small><small> solved programming problems in<br> various coding paltforms<br> using c++ language</small></small></p>
                         </div>
                         <div class="col-6">
-                            <h3>+2</h3><p><small>projects using html,<br>css,javascript and bootstarp</small></p>
+                            <h3>+3</h3><p><small><small> using html,css,javascript,<br>bootstarp and python</small></small></p>
                         </div>
                     </div>
                 </div>
@@ -62,24 +62,24 @@
         <div class="row row-content">
             <div class="col mb-5">
                 <h3><span class="hello">E</span>ducation</h3>
-                <div id="mycarousel" class="carousel slide mt-5" data-ride="carousel">
+                <div id="mycarousel" class="carousel slide carousel-fade mt-5" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <img class="d-block img-fluid imgmod" width="100%s" src="mrit.jpg" alt="uthappizza">
                           <div class="carousel-caption d-none d-md-block">
-                            <h2>Malla Reddy Institute Of Technology,Secunderabad<span class="badge badge-danger">UnderGraduation</span><span class="badge badge-pill badge-secondary">2019-2023</span><span class="badge badge-pill badge-secondary">CGPA:7.16</span</h2>                     
+                            <h2 class="col-6 offset-6">Malla Reddy Institute Of Technology,Secunderabad<span class="badge badge-danger">UnderGraduation</span><span class="badge badge-pill badge-secondary">2019-2023</span><span class="badge badge-pill badge-secondary">CGPA:7.16</span</h2>                     
                           </div> 
                         </div>
                         <div class="carousel-item">
                             <img class="d-block img-fluid imgmod" src="svs.jpeg" alt="uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Sri Vijaya Sai Junior Collage,Bodhan<br><span class="badge badge-danger">Intermediate</span><span class="badge badge-pill badge-secondary">2017-2019</span><span class="badge badge-pill badge-secondary">CGPA:8.73</span></h2>
+                                <h2 class="col-6 offset-6">Sri Vijaya Sai Junior Collage,Bodhan<br><span class="badge badge-danger">Intermediate</span><span class="badge badge-pill badge-secondary">2017-2019</span><span class="badge badge-pill badge-secondary">CGPA:8.73</span></h2>
                             </div>
                         </div>
                         <div class="carousel-item mr-5">
                             <img class="d-block img-fluid imgmod" src="jhs.jpg" alt="uthappizza">
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Jeevadan High School,Yellareddy<br><span class="badge badge-danger">Schooling</span><span class="badge badge-pill badge-secondary">2016-2017</span><span class="badge badge-pill badge-secondary">CGPA:9.2</span></h2>
+                                <h2 class="col-6 offset-6">Jeevadan High School,Yellareddy<br><span class="badge badge-danger">Schooling</span><span class="badge badge-pill badge-secondary">2016-2017</span><span class="badge badge-pill badge-secondary">CGPA:9.2</span></h2>
                             </div>
                         </div>
                         </div>
@@ -94,9 +94,6 @@
                         <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </a>
-                        <button class="btn btn-danger btn-sm " id="carouselButton">
-                            <span class="fa fa-pause"></span>
-                        </button>
                         </div>
                     </div>
                 </div>
@@ -141,10 +138,47 @@
                 <div class="col-12 col-sm-3"></div>
                </div>
             </div>
-
-            <div >
-
+           
+            <div class="mb-5">
+                <h3 class="offset-2"><span class="hello">S</span>kills</h3>
+                <div class=" row row-content bg-dark">     
+                    <div class="card col-2 offset-1" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">C++</h5>
+                          <p class="card-text">Intermediate<br></p>
+                        </div>
+                      </div>
+                      <div class="card col-2 ml-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">JAVA</h5>
+                          <p class="card-text">beginner</p>
+                        </div>
+                      </div>
+                      <div class="card col-2 ml-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">PYTHON</h5>
+                          <p class="card-text">beginner</p>
+                        </div>
+                      </div>
+                      <div class="card col-2 ml-2" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">HTML,CSS & JAVASCRIPT</h5>
+                          <p class="card-text">Intermediate</p>
+                        </div>
+                      </div>
+                      <div class="card col-2 ml-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <div>
+                                <h5 class="card-title">BOOTSTRAP</h5>
+                                <p class="card-text">Intermediate</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                </div>
             </div>
+           
+            
 
             <footer class="footer">
                 <div class="container">
@@ -155,7 +189,7 @@
                               500014,Maissamaguda<br>
                               Kompally<br>
                               Hyderabad<br>
-                              Tel.: +91 63045 25307<br>
+                            Tel.: +91 63045 25307<br>
                               Email:pulitejagoud@gmail.com
                            </address>
                         </div>
@@ -178,7 +212,7 @@
 
     <script>
         $(document).ready(function(){
-            $('#mycarousel').carousel( { interval: 2000 } );
+            $('#mycarousel').carousel( { interval: 3000 } );
             $('#carouselButton').click(function() {
             if ($('#carouselButton').children('span').hasClass('fa-pause')){
                 $('#mycarousel').carousel('pause');

@@ -102,3 +102,28 @@ min-height:100px;
 .footerButton {
     color: aliceblue;
 }
+
+.bg-dark {
+    padding: 15px;
+}
+
+.card-body {
+    padding: 5.25rem;
+}
+
+
+.card-title {
+    margin-bottom: 0.75rem;
+    margin: -20px -30px;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    margin: -15px -50px;
+    padding: 20px;
+}
+.cardflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
