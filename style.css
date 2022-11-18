@@ -7,6 +7,7 @@
 }
 html,body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 .navbar-dark {
     background-color: black;
@@ -127,3 +128,46 @@ min-height:100px;
     justify-content: center;
     align-items: center;
 }
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.icons {
+    font-size:x-large ;
+}
+.iconsColor{
+    color : rgb(145, 145, 144);
+}
+.twitterColor:hover{
+    color:#00acee;
+}
+
+.linkedinColor:hover{
+    color: #0e76a8;
+}
+
+.gitColor:hover{
+    color: rgb(255, 255, 255);
+}
+
+.instagramColor:hover{
+    background: #f09433; 
+    border-radius: 20px;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.tab{
+    color: black;
+}
+
+.tab:hover{
+    color:black;
+}
+
