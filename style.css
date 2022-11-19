@@ -24,7 +24,7 @@ html,body{
     padding: 0;
 }
 .tejaimg{
-    height: 680px;
+    height: 727px;
     width: 661px;
     margin-top: 69px;
 }
@@ -54,8 +54,10 @@ html,body{
         margin-bottom: 0%;
         
     }
-
+    
+    
   }
+
 
   .carousel {
     background: black;
@@ -93,10 +95,11 @@ min-height:100px;
     background-color: rgb(156, 38, 38) ;
 }
 
+
 .footer {
     background-color: black;
     margin: 0px auto;
-    padding: 100px 10px 100px 140px;
+    padding: 20px 0px 20px 0px;
     color: white;
 }
 
@@ -170,4 +173,69 @@ min-height:100px;
 .tab:hover{
     color:black;
 }
+
+.links{
+    color: #ddd;
+}
+
+.links:hover{
+    text-decoration: none;
+}
+
+.alink{
+    color: black;
+}
+
+.alink:hover{
+    text-decoration: none; 
+}
+
+.btn-outline-danger:hover{
+    background  : rgb(156, 38, 38);
+}
+.btn-outline-secondary:hover{
+    background: rgb(156, 38, 38);
+}
+@media only screen and ( min-width:370px ) and (max-width: 500px) {
+    
+    .footerWidth {
+        margin-left : 78px;
+    }
+    
+  }
+
+@media only screen and (max-width:370px) {
+    .footerWidth{
+        margin-left: 66px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width:348px) {
+    .footerWidth{
+        margin-left: 65px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width:569px) {
+    .row{
+    display : flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.mrg{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    offset: 0;
+}
+.mrgone{
+    margin-left: 10px !important;
+}
+
+}
+
 
